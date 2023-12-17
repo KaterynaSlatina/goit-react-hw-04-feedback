@@ -43,8 +43,8 @@ export const App = () => {
         <Section title="Statistics">
           <Statistics
             good={state.good}
-            neutral={state.good}
-            bad={state.good}
+            neutral={state.neutral}
+            bad={state.bad}
             total={countTotalFeedback()}
             positivePercentage={countPositivePercentage()}
           />
